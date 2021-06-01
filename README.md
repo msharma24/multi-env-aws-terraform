@@ -15,4 +15,4 @@ The Project uses a wrapper script called `run_terraform.sh` which will target th
 3 . This workflow can easily be integrated in your choice of CICD Vendor - AzureDevOps, GitLab etc..
 
 
-### P.S Update the `backend.conf` with your S3 backend confirmation information.
+### P.S Update the `backend.conf` with your S3 backend information.
