@@ -37,7 +37,6 @@ jobs:
         aws-region: us-east-1
 
     - name: Print AWS identity
-      uses: chrislennon/action-aws-cli@v1.1
       run: aws sts get-caller-identity
 
     # Initialize a new or existing Terraform working directory by creating initial files, loading any remote state, downloading modules, etc.
