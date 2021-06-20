@@ -3,6 +3,7 @@ on:
   push:
     branches:
     - feature/*
+    - feat/*
     - fix/*
     - bugfix/*
     - main
