@@ -19,6 +19,7 @@ DEPLOY=$2
 echo $TF_IN_AUTOMATION
 
 rm -rf .terraform
+terraform fmt -check
 terraform init -backend-config=$BACKEND_PATH -input=false
 terraform plan -var-file=$ENV_PATH -compact-warnings   -lock=true  -parallelism=100 -input=false
 
