@@ -11,7 +11,7 @@
 #set -xe
 
 export TF_IN_AUTOMATION=true
-export TF_PLUGIN_CACHE_DIR="${HOME}/.terraform.d/plugin-cache"
+#export TF_PLUGIN_CACHE_DIR="${HOME}/.terraform.d/plugin-cache"
 
 ENV_PATH=env/$1/terraform.tfvars
 BACKEND_PATH=env/$1/backend.conf
