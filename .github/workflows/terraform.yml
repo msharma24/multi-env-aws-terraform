@@ -7,7 +7,6 @@ on:
     - fix/*
     - bugfix/*
     - main
-  pull_request:
 
 jobs:
   terraform:
