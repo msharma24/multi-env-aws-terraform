@@ -6,7 +6,9 @@ on:
     - feat/*
     - fix/*
     - bugfix/*
-    - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   terraform:
